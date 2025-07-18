@@ -5,7 +5,6 @@ import BG from './BG.jpg';
 export default function Home() {
   return (
     <div className="mx-auto w-full max-w-7xl px-4 sm:px-8">
-      {/* Hero Section */}
       <aside className="relative overflow-hidden text-white rounded-3xl bg-gradient-to-br from-orange-500 to-orange-700 shadow-xl mt-12">
         <div className="relative z-10 px-4 py-20 sm:py-28 text-center">
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight mb-6">
@@ -31,19 +30,16 @@ export default function Home() {
           </Link>
         </div>
 
-        {/* Images */}
         <div className="absolute inset-0 flex justify-center items-center gap-8 opacity-30">
           <img className="w-72 sm:w-96 rounded-xl shadow-lg" src={BG} alt="background" />
           <img className="w-40 sm:w-56 rounded-xl shadow-lg" src={BG} alt="background2" />
         </div>
       </aside>
 
-      {/* Centered Image Section */}
       <div className="grid place-items-center mt-24">
         <img className="sm:w-96 w-52 rounded-xl shadow-lg" src={BG} alt="main-display" />
       </div>
 
-      {/* Footer Text */}
       <h2 className="text-center text-3xl sm:text-5xl font-bold py-12">
         Discover, Explore & Grow
       </h2>
