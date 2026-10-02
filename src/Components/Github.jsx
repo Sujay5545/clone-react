@@ -16,14 +16,14 @@ export default function Github() {
                     <img
                         src={data.titlePhoto}
                         alt="Profile"
-                        className="w-32 h-32 rounded-full border-4 border-purple-500 shadow-md hover:shadow-purple-400/60 transition"
+                        className="w-32 h-32 rounded-full border-4 border-purple-400 shadow-md hover:shadow-purple-400/60 transition"
                     />
-                    <h1 className="text-3xl font-bold tracking-wide text-purple-400">
+                    <h1 className="text-3xl font-bold tracking-wide text-purple-300">
                         {data.handle}
                     </h1>
 
                     {data.organization && (
-                        <p className="text-sm text-gray-300 italic">
+                        <p className="text-sm text-gray-300 italic bold">
                             {data.organization}
                         </p>
                     )}
