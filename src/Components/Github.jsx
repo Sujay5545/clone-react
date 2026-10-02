@@ -3,7 +3,7 @@ import { Link, useParams, useLoaderData } from 'react-router-dom';
 
 export default function Github() {
     const data = useLoaderData();
-
+// Just for testing purpose I am adding this comment
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white p-4">
             <div className="bg-gray-900 border border-gray-700 rounded-3xl shadow-xl p-6 w-full max-w-lg transition-all hover:scale-105 duration-300 hover:shadow-purple-500/50">
