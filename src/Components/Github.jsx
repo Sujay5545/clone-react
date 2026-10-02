@@ -21,7 +21,7 @@ export default function Github() {
                     <h1 className="text-3xl font-bold tracking-wide text-purple-300">
                         {data.handle}
                     </h1>
-
+                    // Tp
                     {data.organization && (
                         <p className="text-sm text-gray-300 italic bold">
                             {data.organization}
