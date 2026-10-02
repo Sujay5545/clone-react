@@ -31,7 +31,7 @@ export default function Github() {
                     <p className="text-gray-400 text-sm">Friends: {data.friendOfCount}</p>
                     <p className="text-white text-lg">
                         Rank: <span className="capitalize text-green-400">{data.rank}</span> •
-                        Max Rating: <span className="text-yellow-400">{data.maxRating}</span>
+                        Max Rating: <span className="text-yellow-500">{data.maxRating}</span>
                     </p>
                 </div>
             </div>
