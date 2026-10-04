@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, useParams, useLoaderData } from 'react-router-dom';
+// import { Link, useParams, useLoaderData } from 'react-router-dom';
 
 export default function Github() {
     const data = useLoaderData();
