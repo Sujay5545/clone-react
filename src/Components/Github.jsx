@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams, useLoaderData } from 'react-router-dom';
 
-export default function Github() {
-    const data = useLoaderData();
+// export default function Github() {
+    // const data = useLoaderData();
 
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white p-4">
