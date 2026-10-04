@@ -6,7 +6,7 @@ export default function Github() {
 
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white p-4">
-            <div className="bg-gray-900 border border-gray-700 rounded-3xl shadow-xl p-6 w-full max-w-lg transition-all hover:scale-105 duration-300 hover:shadow-purple-500/50">
+            <div className="bg-gray-100 border border-gray-700 rounded-3xl shadow-xl p-6 w-full max-w-lg transition-all hover:scale-105 duration-300 hover:shadow-purple-500/50">
                 <div
                     className="flex flex-col items-center text-center space-y-4"
                     onClick={() => {
@@ -30,7 +30,7 @@ export default function Github() {
 
                     <p className="text-gray-400 text-sm">Friends: {data.friendOfCount}</p>
                     <p className="text-white text-lg">
-                        Rank: <span className="capitalize text-green-400">{data.rank}</span> •
+                        Rank: <span className="capitalize text-green-800">{data.rank}</span> •
                         Max Rating: <span className="text-yellow-400">{data.maxRating}</span>
                     </p>
                 </div>
