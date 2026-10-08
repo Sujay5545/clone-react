@@ -13,11 +13,11 @@ export default function Github() {
                         window.open(`https://codeforces.com/profile/${data.handle}`, '_blank');
                     }}
                 >
-                    <img
+                    {/* <img
                         src={data.titlePhoto}
                         alt="Profile"
                         className="w-32 h-32 rounded-full border-4 border-purple-400 shadow-md hover:shadow-purple-400/60 transition"
-                    />
+                    /> */}
                     <h1 className="text-3xl font-bold tracking-wide text-purple-300">
                         {data.handle}
                     </h1>
